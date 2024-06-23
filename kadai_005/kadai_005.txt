@@ -44,3 +44,10 @@ Author: yutoyamada0326 <yamajihobiron@gmail.com>
 Date:   Sun Jun 23 16:35:40 2024 +0900
 
     最初のコミット
+
+yuto@yy git_challenge % git log --oneline               
+
+
+5e9381e (HEAD -> main) ２回目のコミット
+c441cd6 最初のコミット
+yuto@yy git_challenge % 
