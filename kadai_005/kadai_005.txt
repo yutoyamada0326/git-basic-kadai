@@ -1,0 +1,46 @@
+yuto@yy git_tutorial % mkdir git_challenge                                                     
+
+yuto@yy git_tutorial % cd                                                                      
+yuto@yy ~ % mkdir git_challenge
+
+yuto@yy ~ % cd git_challenge
+
+yuto@yy git_challenge % touch hello_world.txt
+yuto@yy git_challenge % git init                                                                
+
+Initialized empty Git repository in /Users/yuto/git_challenge/.git/
+yuto@yy git_challenge % git add hello_world.txt 
+
+yuto@yy git_challenge % git commit -m "最初のコミット"                
+
+[main (root-commit) c441cd6] 最初のコミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+yuto@yy git_challenge % git commit -m "２回目のコミット"      
+
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+yuto@yy git_challenge % git add hello_world.txt         
+
+yuto@yy git_challenge % git commit -m "２回目のコミット"
+
+[main 5e9381e] ２回目のコミット
+ 1 file changed, 2 insertions(+)
+yuto@yy git_challenge % git log
+
+commit 5e9381ef05d7405b67fd34641c725de782650525 (HEAD -> main)
+Author: yutoyamada0326 <yamajihobiron@gmail.com>
+Date:   Sun Jun 23 16:37:10 2024 +0900
+
+    ２回目のコミット
+
+commit c441cd64378f9a36f0c53090467b26d9fd1f8b79
+Author: yutoyamada0326 <yamajihobiron@gmail.com>
+Date:   Sun Jun 23 16:35:40 2024 +0900
+
+    最初のコミット
